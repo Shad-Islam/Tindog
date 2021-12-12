@@ -93,7 +93,7 @@ h3{
 /* testimonials */
 
 #testimonials{
-    padding: 7% 15%;
+    
     text-align: center;
     background: #ef8172;
     color: #fff;
@@ -114,4 +114,8 @@ h3{
 .press-logo{
     width: 15%;
     margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
 }
