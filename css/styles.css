@@ -62,13 +62,18 @@ h3 {
 
 .title-image {
   width: 60%;
-  transform: rotate(25deg);
+  transform: rotate(25deg); 
+  position: absolute;
 }
 
 /* feature-container */
 
 .features-item {
   text-align: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  
 }
 
 .features-item i {
