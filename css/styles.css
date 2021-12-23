@@ -63,16 +63,24 @@ h3 {
 .title-image {
   width: 60%;
   transform: rotate(25deg); 
-  position: absolute;
+  position: relative;
+  z-index: 0;
+  
+  
 }
 
 /* feature-container */
 
+
+
 .features-item {
   text-align: center;
-  background-color: #fff;
   position: relative;
+  bottom: 200px;
   z-index: 1;
+  background-color: #fff;
+
+
   
 }
 
