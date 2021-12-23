@@ -59,9 +59,6 @@ h3 {
 }
 
 /* title-image */
-.title-part{
-
-}
 
 .title-image {
   width: 60%;
@@ -69,20 +66,20 @@ h3 {
 }
 
 /* feature-container */
-.features_part{
- 
-
+#features{
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  bottom: 120px;
+  background-color: #fff;
 }
 
 
 .features-item {
   text-align: center;
-  position: relative;
-  z-index: 1;
-  bottom: 150px;
+margin-top: 30px;
 
-  background-color: #fff;
-  display: inline-block;
+  
 
 }
 
