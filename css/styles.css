@@ -59,29 +59,31 @@ h3 {
 }
 
 /* title-image */
+.title-part{
+
+}
 
 .title-image {
   width: 60%;
   transform: rotate(25deg); 
-  position: relative;
-  z-index: 0;
-  
-  
 }
 
 /* feature-container */
+.features_part{
+ 
 
+}
 
 
 .features-item {
   text-align: center;
   position: relative;
-  bottom: 200px;
   z-index: 1;
+  bottom: 150px;
+
   background-color: #fff;
+  display: inline-block;
 
-
-  
 }
 
 .features-item i {
