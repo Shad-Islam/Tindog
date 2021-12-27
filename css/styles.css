@@ -67,25 +67,21 @@ h3 {
   width: 60%;
   transform: rotate(25deg); 
   position: relative;
-  left: 30%;
+  left: 30%; 
 }
 
 /* feature-container */
 #features{
   text-align: center;
-  position: relative;
+  /* position: relative;
   z-index: 1;
-  bottom: 120px;
+  bottom: 120px; */
   background-color: #fff;
 }
 
 
 .features-item {
   text-align: center;
-margin-top: 30px;
-
-  
-
 }
 
 .features-item i {
