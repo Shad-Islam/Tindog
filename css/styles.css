@@ -2,6 +2,28 @@
   font-family: "Montserrat";
 }
 
+h1 , h2 , h3 {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5;
+}
+
+
 #title {
   background-color: #ff4c68;
   color: #fff;
@@ -10,28 +32,6 @@
 .container-fluid {
   padding: 3% 15% 7%;
 }
-
-h1 {
-  font-family: "Montserrat";
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-
-h2 {
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3 {
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 1.5;
-}
-
-
 
 
 /* navigation bar  */
@@ -65,20 +65,19 @@ h3 {
 
 .title-image {
   width: 60%;
-  transform: rotate(25deg); 
+  transform: rotate(25deg);
   position: relative;
-  left: 30%; 
+  left: 30%;
 }
 
 /* feature-container */
-#features{
+#features {
   text-align: center;
   /* position: relative;
   z-index: 1;
   bottom: 120px; */
   background-color: #fff;
 }
-
 
 .features-item {
   text-align: center;
@@ -140,37 +139,36 @@ h3 {
 }
 
 @media (max-width: 986px) {
-  .title-image{
+  .title-image {
     transform: rotate(0);
-    
   }
 }
 
-#cta{
- background-color: #ff4c68;
- padding: 7% 15%;
- color:#fff ;
- text-align: center;
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  color: #fff;
+  text-align: center;
 }
 
-.cta_heading{
+.cta_heading {
   font-family: "Montserrat";
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
-#footer{
+#footer {
   background-color: #fff;
   text-align: center;
-  padding: 7% ;
+  padding: 7%;
 }
 
-#footer i{
+#footer i {
   font-size: 20px;
   margin: 0 2% 2% 0;
 }
 
-#footer p{
+#footer p {
   font-size: 30px;
 }
