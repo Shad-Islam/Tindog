@@ -127,7 +127,9 @@ h3 {
 
 
 /* pricing */
-
+#pricing{
+  text-align: center;
+}
 
 
 .pricing-column {
