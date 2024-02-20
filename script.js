@@ -1,1 +1,1 @@
-alert("Welcome to our wedside.")
+alert("Welcome to our website.")
